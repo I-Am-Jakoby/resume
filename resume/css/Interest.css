@@ -1,0 +1,62 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/11/2016 10:45
+  	*/
+
+@font-face {
+  font-family: "Interest";
+  src: url("../fonts/Interest.eot");
+  src: url("../fonts/Interest.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Interest.woff") format("woff"),
+       url("../fonts/Interest.ttf") format("truetype"),
+       url("../fonts/Interest.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Interest";
+    src: url("./Interest.svg#Interest") format("svg");
+  }
+}
+
+[class^="interest-"]:before, [class*=" interest-"]:before,
+[class^="interest-"]:after, [class*=" interest-"]:after {   
+  font-family: Interest;
+        font-size: inherit;
+font-style: normal;
+}
+
+.interest-archery:before { content: "\f100"; }
+.interest-badminton:before { content: "\f101"; }
+.interest-baseball:before { content: "\f102"; }
+.interest-basketball:before { content: "\f103"; }
+.interest-bicycle:before { content: "\f104"; }
+.interest-bicycle-1:before { content: "\f105"; }
+.interest-billiard:before { content: "\f106"; }
+.interest-bowling:before { content: "\f107"; }
+.interest-boxing:before { content: "\f108"; }
+.interest-darts:before { content: "\f109"; }
+.interest-fencing:before { content: "\f10a"; }
+.interest-football:before { content: "\f10b"; }
+.interest-golf:before { content: "\f10c"; }
+.interest-hockey:before { content: "\f10d"; }
+.interest-ice-skate:before { content: "\f10e"; }
+.interest-knight:before { content: "\f10f"; }
+.interest-meditation:before { content: "\f110"; }
+.interest-ping-pong:before { content: "\f111"; }
+.interest-pool:before { content: "\f112"; }
+.interest-queen:before { content: "\f113"; }
+.interest-runner:before { content: "\f114"; }
+.interest-sailboat:before { content: "\f115"; }
+.interest-soccer-boots:before { content: "\f116"; }
+.interest-soccer-field:before { content: "\f117"; }
+.interest-stopwatch:before { content: "\f118"; }
+.interest-swimmer:before { content: "\f119"; }
+.interest-tennis:before { content: "\f11a"; }
+.interest-tennis-1:before { content: "\f11b"; }
+.interest-trophy:before { content: "\f11c"; }
+.interest-volleyball:before { content: "\f11d"; }
+.interest-weightlifting:before { content: "\f11e"; }
+.interest-whistle:before { content: "\f11f"; }
