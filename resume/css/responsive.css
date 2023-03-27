@@ -1,0 +1,278 @@
+/*
+ Theme Name: Bittanto
+ Theme URI: https://themeforest.net/user/themewar/portfolio
+ Author: themewar
+ Author URI: 
+ Description: Bittanto - Creative Resume HTML5 Responsive Template
+ Version: 1.0
+ License:
+ License URI:
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Responsive For Extra large Device 2
+2. Desktop Device
+3. Responsive For Tab Device
+4. Responsive For Mobile & Tab
+5. Responsive For Mobile Device
+*/
+
+/*------------------------------------------------------------------------------------
+/ 1. Responsive For Extra large Device 2
+--------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1600px){
+    
+}
+
+/*------------------------------------------------------------------------------------
+/ 2. Desktop Device
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 1024px) and (max-width: 1360px){
+
+
+    .mainMenu ul li{
+        min-width: 100px;
+    }
+    .psFooter, .psSkills{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pssBox h5{
+        font-size: 15px;
+    }
+    .comonSection{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .pricingTable, .icon_box_02{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .kr-accordion .card-header h2 a span{
+        line-height: 28px;
+        display: inline-block;
+    }
+    .ac_meta span{
+        margin-bottom: 5px;
+    }
+    .sicmr_tag a{
+        margin-left: 15px;
+    }
+    .icon_box_01 p{
+        font-size: 16px;
+        word-break: break-all;
+    }
+}
+/*------------------------------------------------------------------------------------
+/ 3. Responsive For Tab Device
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+/*------------------------------------------------------------------------------------
+/ 4. Responsive For Mobile & Tab
+/--------------------------------------------------------------------------------------*/
+@media (max-width: 1023px){
+
+
+    .menu_btn{
+        height: 100%;
+        width: calc(100% - 90px);
+        background: #01d85f;
+        color: #FFF;
+        line-height: 90px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: block;
+        text-align: center;
+        position: absolute;
+        left: 0;
+    }
+    .menu_btn i{
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .menu_btn:hover, .menu_btn.active{
+        background: #01d85f;
+        color: #FFF;
+    }
+    .mainMenu{
+        z-index: 99;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background: #34313f;
+        box-shadow: -32px 21px 68.6px 1.4px rgba(52, 49, 63, 0.5);
+        max-height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: none;
+        float: none;
+    }
+    .mainMenu > ul{
+        display: block;
+    }
+    .mainMenu > ul > li{
+        padding: 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        float: none;
+    }
+    .mainMenu > ul > li > a{
+        padding: 18px 20px;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .mainMenu ul li a i{
+        position: relative;
+        font-size: 14px;
+        opacity: 1;
+        top: 2px;
+        margin-right: 10px;
+    }
+    .mainMenu ul li.active i, .mainMenu ul li:hover i {
+        opacity: 1;
+    }
+    .col-lg-8.contentColumn{
+        -ms-flex: 0 0 58%;
+        flex: 0 0 58%;
+        max-width: 58%;
+    }
+    .col-lg-4.profileColumn {
+        -ms-flex: 0 0 42%;
+        flex: 0 0 42%;
+        max-width: 42%;
+    }
+    .pssBox h5{
+        font-size: 15px;
+    }
+    .psFooter, .psSkills{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .pricingTable{
+        margin-bottom: 30px;
+    }
+    .singleTestimonial{
+        padding-left: 0;
+    }
+    .testiImg{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .icon_box_03{
+        margin-bottom: 40px;
+    }
+    .kr-accordion .card-header h2 a span{
+        line-height: 28px;
+        display: inline-block;
+    }
+    .comonSection{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .filterUL{
+        display: block;
+        top: 0;
+        margin: 0 0 30px;
+    }
+    .icon_box_4{
+        margin-bottom: 30px;
+    }
+    .folioMeta{
+        margin-top: 40px;
+    }
+    .sicmr_social{
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .authorDetails{
+        display: block;
+    }
+    .comment_list li .children{
+        margin-left: 15px;
+    }
+    .single-comment{
+        padding-left: 0;
+    }
+    .single-comment img{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .contact_form{
+        margin-bottom: 50px;
+    }
+}
+/*------------------------------------------------------------------------------------
+/ 5. Responsive For Mobile Device
+--------------------------------------------------------------------------------------*/
+@media (max-width: 767px){
+    .biDetails{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .ac_meta span{
+        margin-bottom: 5px;
+    }
+    .sliderItem img{
+        opacity: 1;
+    }
+    .ldInner{
+        display: block;
+    }
+    .ldInner h5{
+        margin: 0 0 15px;
+    }
+    .ldInner span {
+        margin-right: 7px;
+        display: inline-block;
+    }
+    .aboutSection .mt60 .col-lg-7{
+        margin-top: 30px;
+    }
+    .comonSection{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .col-lg-8.contentColumn,
+    .col-lg-4.profileColumn {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .profileSidebar{
+        margin-bottom: 40px;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar .mCSB_inside > .mCSB_container{
+        padding-right: 25px;
+    }
+    .widget_closer{
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        z-index: 9;
+        border: 1px solid #808080;
+        border-radius: 50%;
+        text-align: center;
+        display: block;
+        color: #808080;
+    }
+    .widget_closer:hover{
+        color: #01d85f;
+        border-color: #01d85f;
+    }
+}

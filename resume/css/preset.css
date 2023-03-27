@@ -1,0 +1,284 @@
+/*
+ Theme Name: Bittanto
+ Theme URI: https://themeforest.net/user/themewar/portfolio
+ Author: themewar
+ Author URI: 
+ Description: Bittanto - Creative Resume HTML5 Responsive Template
+ Version: 1.0
+ License:
+ License URI:
+*/
+
+/*==================================
+    [Table of contents]
+===================================
+    1. Fonts
+    2. Presets & Typography Settings
+    3. Preloader
+*/
+
+/*------------------------------------------------------
+/  1. Fonts
+/------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*------------------------------------------------------
+/  2. Presets & Typography Settings
+/------------------------------------------------------*/
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: #808080;
+    padding: 80px 0;
+}
+body.dark{
+    background: url(../images/bg/1.png) no-repeat fixed top center #34313f;
+}
+p{
+    margin: 0 0 15px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    color: #333333;
+    line-height: 1.3333;
+    margin: 0 0 15px;
+}
+a{
+    color: #7635f5;
+    text-decoration: none;
+
+    transition: all ease 300ms;
+    -moz-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+}
+a:hover{
+    color: #01d85f;
+    text-decoration: none;
+}
+input:focus, button:focus, select:focus, textarea:focus, a:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.fw_300{
+    font-weight: 300;
+}
+.fw_400{
+    font-weight: 400;
+}
+.fw_500{
+    font-weight: 500;
+}
+.fw_600{
+    font-weight: 600;
+}
+.fw_700{
+    font-weight: 700;
+}
+.wb_all{
+    word-break: break-all;
+}
+.fs_italic{
+    font-style: italic;
+}
+.td_underline{
+    border-bottom: 1px solid currentColor;
+    display: inline;
+    line-height: 1;
+    word-break: break-word;
+}
+.secondary_color{
+    color: #01d85f;
+}
+.primary_color{
+    color: #7635f5;
+}
+.dark_color{
+    color: #1e1e1e;
+}
+.dark_color_2{
+    color: #333333;
+}
+.sectionTitle{
+    font-weight: 700;
+    font-size: 20px;
+    color: #01d85f;
+    letter-spacing: 0;
+    line-height: .8;
+    margin: 0 0 35px;
+    position: relative;
+    padding: 0 0 13px;
+}
+.sectionTitle:after{
+    content: '';
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/bg/2.png) no-repeat left center;
+}
+.btt_btn{
+    height: 50px;
+    display: inline-block;
+    padding: 0 35px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #FFF;
+    background: #7635f5;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bttb_dark{
+    background: #292633;
+    color: #FFF;
+}
+.btt_reverse{
+    background: #01d85f;
+}
+.btt_btn.only_icon{
+    padding: 0 5px;
+    width: 50px;
+    text-align: center;
+    letter-spacing: 0;
+}
+.btt_btn i{
+    font-size: 18px;
+    line-height: .8;
+    position: relative;
+    top: 4px;
+    margin-right: 9px;
+}
+.btt_btn.only_icon i{
+    margin: 0;
+}
+.btt_btn span {
+    position: relative;
+    z-index: 2;
+}
+.btt_btn::after {
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    background: #01d85f;
+    transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+    -moz-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+    -webkit-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+}
+.btt_reverse:after{
+    background: #7635f5;
+}
+.btt_btn:hover{
+    color: #FFF;
+}
+.btt_btn:hover:after {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+.comonSection{
+    padding: 30px 15px;
+}
+
+/*------------------------------------------------------------------------------
+/ 3. Preloader
+/------------------------------------------------------------------------------*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #201E29;
+}
+.preloader .vs-btn.vs-style1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 0;
+    padding: 5px 20px;
+    font-size: 16px;
+    border: none;
+}
+.preloader .preloader-box {
+    position: relative;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    perspective: 200px;
+    margin-top: 30px;
+}
+.preloader .letter {
+    animation: movement 600ms ease var(--animation) infinite alternate;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: #01d85f;
+    margin-right: -1px;
+}
+@media (max-width: 576px) {
+    .preloader .letter {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+.preloader .letter:nth-child(1) {
+    --animation: 0ms;
+}
+.preloader .letter:nth-child(2) {
+    --animation: 75ms;
+}
+.preloader .letter:nth-child(3) {
+    --animation: 150ms;
+}
+.preloader .letter:nth-child(4) {
+    --animation: 225ms;
+}
+.preloader .letter:nth-child(5) {
+    --animation: 300ms;
+}
+.preloader .letter:nth-child(6) {
+    --animation: 375ms;
+}
+.preloader .letter:nth-child(7) {
+    --animation: 450ms;
+}
+.preloader .letter:nth-child(8) {
+    --animation: 525ms;
+}
+@keyframes movement {
+    from {
+        transform: scale(0.6) translateY(0px) rotateX(0deg);
+    }
+    to {
+        transform: scale(1) translateY(-15px) rotateX(15deg);
+        background: #201E29;
+    }
+}

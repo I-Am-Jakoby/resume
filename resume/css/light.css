@@ -1,0 +1,136 @@
+/*
+ Theme Name: Bittanto
+ Theme URI: https://themeforest.net/user/themewar/portfolio
+ Author: themewar
+ Author URI: 
+ Description: Bittanto - Creative Resume HTML5 Responsive Template
+ Version: 1.0
+ License:
+ License URI:
+*/
+
+body.light{
+    background: url(../images/bg/5.png) no-repeat fixed top center #fafafa;
+}
+.light .profileSidebar, .light .header, .light .bodyContent{
+    box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, .2);
+}
+.light .profileSidebar{
+    background: #FFF;
+}
+.light .pssbBars{
+    background: #eceef7;
+}
+.light .header, .light .bodyContent{
+    background: #FFF;
+}
+.light .mainMenu ul li.active i, .mainMenu ul li:hover i {
+    color: #01d85f;
+    opacity: .12;
+}
+.light .mainMenu ul li a i{
+    opacity: .12;
+}
+body.light .sliderItem img{
+    opacity: .7;
+}
+body.light .sliderItem:hover img {
+    opacity: 1;
+}
+body.light .preloader{
+    background: #fff;
+}
+
+@media (max-width: 1023px){
+    body.light .mainMenu{
+        background: #fff;
+        box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, .2);
+    } 
+    body.light .mainMenu > ul > li > a{
+        border-color: #eceef7;
+    }
+    .light .mainMenu ul li a i {
+        opacity: 1;
+    }
+    .light .mainMenu ul li.active i, .mainMenu ul li:hover i{
+        opacity: 1;
+    }
+}
+/* Background Dark */
+.light .sidebarToggler > span > span{
+    background: #7635f5;
+}
+.light .sidebarToggler:hover > span > span,
+.light .sidebarToggler.active > span > span{
+    background: #FFF;
+}
+.light .sidebarToggler:hover, .light .sidebarToggler.active{
+    background: #01d85f;
+}
+.light .icon_box_02 .i_div{
+    background: #FFF;
+}
+.light .ldInner i{
+    color: #808080;
+}
+.light .pricingTable{
+    transition: all ease 300ms;
+    -moz-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+}
+.light .icon_box_02:hover, .light .pricingTable:hover{
+    box-shadow: -3px 2px 21px 4px rgb(246, 246, 246);
+}
+
+/* Background Gray */
+.light .mainMenu ul li:after, .light .sidebarToggler, .light .sliderItem, .light .footer, .light .icon_box_02, 
+.light .pricingTable, .light .ac_meta span, .light .biDetails, .light .btt_pagination a, .light .btt_pagination span, 
+.light input[type="email"], .light input[type="text"], .light input[type="number"], .light input[type="url"], .light select, .light textarea, 
+.light .pageContent blockquote, .light .icon_box_4 i, .light .sidebar{
+    background: #eceef7;
+}
+.light .sidebar .search_form input{
+    background: #FFF;
+}
+
+/* Background Primary */
+.light .icon_box_02:hover .i_div, .light .icon_box_4:hover i{
+    background: #01d85f;
+}
+.light .icon_box_4:hover i{
+    color: #FFF;
+}
+
+
+/* Dark Color */
+.light .mainMenu ul li a, .light .icon_box_01 h3, .light .icon_box_02 h3, .light .tesAuthor h5, .light .pricingTable h5, .light .pricingTable h2, 
+.light .singleInt h3, .light .ldInner h5, .light .icon_box_03 h5, .light .kr-accordion .card-header h2 a, .light .filterUL li, .light .folio_title a, 
+.light .biDetails h3, .light .blogTitle, .light .pageContent h3, .light .authorDetails h5, .light .folioTitle, .light .icon_box_4 i, 
+.light .icon_box_4 h3, .light .singleRecent a{
+    color: #262330;
+}
+
+/* Primary Color */
+.light .mainMenu ul li.active > a, .light .mainMenu ul li:hover > a, .light .filterUL li.active, .light .filterUL li:hover, .light .folio_title a:hover, 
+.light .singleRecent a:hover{
+    color: #01d85f;
+}
+
+.light .bttb_dark{
+    background: #7635f5;
+}
+.light .widget .tabclouds a{
+    border-color: #808080;
+}
+.light .sidebar{
+    box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, .20);
+}
+.light .sidebar .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background: #FFF;
+}
+.light .widget .tabclouds a:hover{
+    border-color: #01d85f;
+}
+.light .aboutSection{
+    background: url(../images/bg/7.png) no-repeat right 94px;
+}
